@@ -32,18 +32,17 @@
     <div class="modal-dialog" role="document">
         <form class="modal-content" enctype="multipart/form-data" onsubmit="insertGroup(event)">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Create group</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
+                <h5 class="modal-title" id="exampleModalLabel">Create group</h5>
             </div>
             <div class="modal-body">
-                <input type="text" id="groupName" class="form-control" placeholder="Enter the group name" />
+                <input type="text" id="groupName" class="form-control ltr-chat" placeholder="Enter the group name" />
                 <br />
-                <input type="file" accept="image/*" name="image" id="image" class="form-control" mt-2 />
+                <input type="file" accept="image/*" name="image" id="image" class="form-control ltr-chat" mt-2 />
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-success">Create group</button>
             </div>
         </form>
