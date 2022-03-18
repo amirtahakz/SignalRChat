@@ -295,9 +295,16 @@ ul {
   margin-top: 10%;
   padding-bottom: 20px;
   border-radius: 20px;
+  text-align:left;
 }
 
 .auth h1 {
   color: white;
+}
+
+
+.ltr-chat{
+    text-align :left !important;
+    direction : ltr !important;
 }
 /*# sourceMappingURL=main.css.map */

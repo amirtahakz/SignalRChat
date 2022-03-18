@@ -43,3 +43,18 @@ E:\Projects\MyProjects\m7\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.C
 E:\Projects\MyProjects\m7\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 E:\Projects\MyProjects\m7\TestChat\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 E:\Projects\MyProjects\m7\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\bin\Debug\net5.0\DataLayer.dll
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\bin\Debug\net5.0\DataLayer.pdb
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CopyComplete
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+E:\Dot Net Core Projects\My\TestChat\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb

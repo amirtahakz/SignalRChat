@@ -23,8 +23,8 @@
 </style>
 <div class="disConnect">
     <div>
-        <p>اتصال شما به سرور قطع شده .</p>
-        <p>درحال برقراری ارتباط ...</p>
+        <p>Your connection to the server has been lost .</p>
+        <p>Connecting ...</p>
     </div>
 </div>
 @*---Modal---*@
@@ -32,19 +32,19 @@
     <div class="modal-dialog" role="document">
         <form class="modal-content" enctype="multipart/form-data" onsubmit="insertGroup(event)">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">ایجاد گروه</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Create group</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <input type="text" id="groupName" class="form-control" placeholder="نام گروه را وارد کنید" />
+                <input type="text" id="groupName" class="form-control" placeholder="Enter the group name" />
                 <br />
                 <input type="file" accept="image/*" name="image" id="image" class="form-control" mt-2 />
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
-                <button type="submit" class="btn btn-success">ایجاد گروه</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-success">Create group</button>
             </div>
         </form>
     </div>
@@ -55,16 +55,16 @@
     <div class="col-8 chat-content">
         <div class="header" style="display: none">
             <img src="img/Default.jpg" />
-            <h2>علی</h2>
+            <h2>Sam</h2>
         </div>
         <div class="chats">
 
         </div>
         <div class="footer" style="display: none">
             <form onsubmit="SendMessage(event)">
-                <input id="messageText" type="text" class="form-control" placeholder="متن خود را وارد کنید">
+                <input id="messageText" type="text" class="form-control" placeholder="Enter your text">
                 <button class="btn btn-success">
-                    ارسال
+                    Send
                     <i class="fa fa-send"></i>
                 </button>
             </form>
@@ -75,7 +75,7 @@
         <Ul>
             <li>
                 <form>
-                    <input type="text" onkeyup="search()" placeholder="جستوجو کنید" id="search_input" class="form-control" />
+                    <input type="text" onkeyup="search()" placeholder="Search" id="search_input" class="form-control ltr-chat" style="padding-left:30px"/>
                     <i class="fa fas fa-search"></i>
                 </form>
             </li>
@@ -89,7 +89,7 @@
                     <li>
                         <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success btn-block" style="width: 100%">
                             <i class="fa fa-plus"></i>
-                            ایجاد گروه جدید
+                            Create group
                         </button>
                     </li>
                     @foreach (var item in Model)
