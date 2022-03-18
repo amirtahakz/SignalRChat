@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hrWcMF4nEvoWmF+77A/SMaH6EfJvcWv3TC6d3uX9Qkdnxd2bAsWU+32HM84L4Dex53OW+rxmSFYkZ/d+7HhYDg==",
+  "dgSpecHash": "0RAc/gc1kJegD9pl/aj61hPNWoStuKu4qIxruYvZsjYu2SVMjNsBcKdREiE/B9JnPnj6dMQkVx/H+X3tlZuEcA==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\TestChat\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "E:\\Dot Net Core Projects\\My\\TestChat\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -100,7 +100,10 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11,9 +11,7 @@ namespace CoreLayer.Services.Users.UserGroups
 {
     public class UserGroupService : BaseService, IUserGroupService
     {
-        public UserGroupService(TestChatContext context) : base(context)
-        {
-        }
+        public UserGroupService(TestChatContext context) : base(context) { }
 
         public async Task<List<UserGroupViewModel>> GetUserGroups(long userId)
         {
@@ -69,7 +67,6 @@ namespace CoreLayer.Services.Users.UserGroups
             Insert(model);
             await Save();
         }
-
 
         public async Task<bool> IsUserInGroup(long userId, long groupId)
         {
