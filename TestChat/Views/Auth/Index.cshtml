@@ -1,11 +1,57 @@
 ﻿@using CoreLayer.ViewModels.Auth
-<div id="login" class="auth" >
-    <partial name="auth/_Login" model="new LoginViewModel()"/>
+@section Styles{
+    <link href="~/css/login.css" rel="stylesheet" />
+}
+
+<div class="form"dir="ltr">
+    <div class="form__box">
+        <div class="form__left">
+            <div class="form__padding"><img class="form__image" src="./img/undraw_Dog_re_63j1.png" /></div>
+        </div>
+        <div class="form__right" id="login">
+           <partial name="auth/_Login" model="new LoginViewModel()" />
+        </div>
+        <div class="form__right" id="register" style="display: none;">
+           <partial name="auth/_Register" model="new RegisterViewModel()" />
+        </div>
+    </div>
 </div>
-<div id="register" class="auth"  style="display: none;">
-    <partial name="auth/_Register" model="new RegisterViewModel()"/>
-</div>
+
+
+
 @section Scripts{ 
     <partial name="_ValidationScriptsPartial">
+        <script>
+            $("#register-btn").click(function () {
+                $("#login").slideUp();
+                $("#register").fadeIn();
+            })
+            $("#login-btn").click(function () {
+                $("#register").slideUp();
+                $("#login").slideDown();
+            })
+            $(document).ready(function () {
+                var route = location.href.split("#")[1];
+                var route2 = location.href.split("/")[4];
+                if (route2) {
+                    if (route2 == "Register") {
+                        $("#login").slideUp();
+                        $("#register").fadeIn();
+                    } else {
+                        $("#register").slideUp();
+                        $("#login").slideDown();
+                    }
+                }
+                if (route) {
+                    if (route == "register") {
+                        $("#login").slideUp();
+                        $("#register").fadeIn();
+                    } else {
+                        $("#register").slideUp();
+                        $("#login").slideDown();
+                    }
+                }
 
+            });
+        </script>
 }

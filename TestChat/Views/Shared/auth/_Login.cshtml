@@ -1,11 +1,11 @@
 ﻿@model CoreLayer.ViewModels.Auth.LoginViewModel
-<form asp-controller="Auth" asp-action="Login">
-    <h1 class="text-center">Login</h1>
-    <div class="text-danger" asp-validation-summary="All"></div>
-    <label class="ltr-chat">Username : </label>
-    <input asp-for="UserName" type="text" class="ltr-chat form-control" />
-    <label class="ltr-chat">Password : </label>
-    <input asp-for="Password" type="password" class="ltr-chat form-control" />
-    <button type="submit" class="btn btn-success mt-4 float-end" style="margin-right: 8px;">Login</button>
-    <a href="#register" id="register-btn" class="btn btn-primary mt-4">Register</a>
-</form>
+<div class="form__padding-right">
+    <form asp-controller="Auth" asp-action="Login">
+        <h1 class="form__title">Member Login</h1>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <input asp-for="UserName" class="form__email" type="text" placeholder="Email" />
+        <input asp-for="Password" class="form__password" type="password" placeholder="******" />
+        <button type="submit" class="form__submit-btn">Login</button>
+    </form><span>Forgot <a class="form__link" href="#">Username</a><a> / </a><a class="form__link" href="#">Password</a></span>
+    <p> <a class="form__link" id="register-btn" href="#register">Create your account</a></p>
+</div>

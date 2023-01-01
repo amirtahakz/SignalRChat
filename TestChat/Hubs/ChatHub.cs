@@ -27,6 +27,7 @@ namespace TestChat.Hubs
             _chatService = chatService;
         }
 
+        
         public override Task OnConnectedAsync()
         {
             Clients.Caller.SendAsync("Welcome", Context.User.GetUserId());

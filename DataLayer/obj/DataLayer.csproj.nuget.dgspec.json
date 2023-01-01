@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dot Net Core Projects\\My\\TestChat\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\a.zahraei\\source\\repos\\SignalRChat\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "E:\\Dot Net Core Projects\\My\\TestChat\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\a.zahraei\\source\\repos\\SignalRChat\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dot Net Core Projects\\My\\TestChat\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\a.zahraei\\source\\repos\\SignalRChat\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "E:\\Dot Net Core Projects\\My\\TestChat\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Dot Net Core Projects\\My\\TestChat\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\a.zahraei\\source\\repos\\SignalRChat\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\a.zahraei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.zahraei\\source\\repos\\SignalRChat\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a.zahraei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,30 +57,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
