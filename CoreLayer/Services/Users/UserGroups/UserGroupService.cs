@@ -11,7 +11,7 @@ namespace CoreLayer.Services.Users.UserGroups
 {
     public class UserGroupService : BaseService, IUserGroupService
     {
-        public UserGroupService(TestChatContext context) : base(context) { }
+        public UserGroupService(ApplicationDbContext context) : base(context) { }
 
         public async Task<List<UserGroupViewModel>> GetUserGroups(long userId)
         {

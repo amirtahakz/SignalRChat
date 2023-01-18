@@ -16,7 +16,7 @@ namespace CoreLayer.Services.Chats.ChatGroups
     {
         private IUserGroupService _Usergroup;
 
-        public ChatGroupService(TestChatContext context, IUserGroupService usergroup) : base(context)
+        public ChatGroupService(ApplicationDbContext context, IUserGroupService usergroup) : base(context)
         {
             _Usergroup = usergroup;
         }

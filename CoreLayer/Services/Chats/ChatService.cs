@@ -12,7 +12,7 @@ namespace CoreLayer.Services.Chats
 {
     public class ChatService : BaseService ,IChatService
     {
-        public ChatService(TestChatContext context) : base(context)
+        public ChatService(ApplicationDbContext context) : base(context)
         {
         }
 

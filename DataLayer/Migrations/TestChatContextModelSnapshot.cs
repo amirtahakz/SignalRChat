@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataLayer.Migrations
 {
-    [DbContext(typeof(TestChatContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class TestChatContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataLayer.Migrations
 {
-    [DbContext(typeof(TestChatContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20221224055045_InitDb")]
     partial class InitDb
     {

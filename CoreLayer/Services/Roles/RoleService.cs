@@ -9,7 +9,7 @@ namespace CoreLayer.Services.Roles
 {
     public class RoleService : BaseService, IRoleService
     {
-        public RoleService(TestChatContext context) : base(context)
+        public RoleService(ApplicationDbContext context) : base(context)
         {
         }
     }

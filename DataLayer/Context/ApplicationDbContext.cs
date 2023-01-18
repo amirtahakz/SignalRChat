@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Context
 {
-    public class TestChatContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public TestChatContext(DbContextOptions<TestChatContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
         }
