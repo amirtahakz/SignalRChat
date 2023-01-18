@@ -9,10 +9,9 @@ using CoreLayer.Services.Users.UserGroups;
 using CoreLayer.Utilities;
 using CoreLayer.ViewModels.Chats;
 using DataLayer.Entities.Chats;
-using Echat.Hubs;
 using Microsoft.AspNetCore.SignalR;
 
-namespace TestChat.Hubs
+namespace ChatApp.Hubs
 {
     public class ChatHub : Hub, IChatHub
     {
@@ -27,14 +26,14 @@ namespace TestChat.Hubs
             _chatService = chatService;
         }
 
-        
+
         public override Task OnConnectedAsync()
         {
             Clients.Caller.SendAsync("Welcome", Context.User.GetUserId());
             return base.OnConnectedAsync();
         }
 
-        public override Task OnDisconnectedAsync(Exception? exception)
+        public override Task OnDisconnectedAsync(Exception exception)
         {
             return base.OnDisconnectedAsync(exception);
         }

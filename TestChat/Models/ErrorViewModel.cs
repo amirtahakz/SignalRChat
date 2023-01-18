@@ -1,6 +1,6 @@
 using System;
 
-namespace TestChat.Models
+namespace ChatApp.Models
 {
     public class ErrorViewModel
     {

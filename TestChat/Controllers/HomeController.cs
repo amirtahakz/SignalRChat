@@ -1,4 +1,5 @@
-﻿using CoreLayer.Services.Chats.ChatGroups;
+﻿using ChatApp.Hubs;
+using CoreLayer.Services.Chats.ChatGroups;
 using CoreLayer.Services.Users.UserGroups;
 using CoreLayer.Utilities;
 using CoreLayer.ViewModels.Chats;
@@ -11,10 +12,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using TestChat.Hubs;
-using TestChat.Models;
+using ChatApp.Models;
 
-namespace TestChat.Controllers
+namespace ChatApp.Controllers
 {
     public class HomeController : Controller
     {
